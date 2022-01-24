@@ -1,4 +1,5 @@
 import { Component, VERSION } from '@angular/core';
+import { CdkTableExporterModule } from 'cdk-table-exporter';
 export interface DataOfFootballers {
   playerName: string;
   playerCountry: string;
